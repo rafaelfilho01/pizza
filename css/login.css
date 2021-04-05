@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: rgba(65, 64, 64, 0.979);
+    color: white;
+}
+
+header section.nav-bar, section.nav-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+section.nav-bar a:hover{
+    cursor: pointer;
+    transition: all .5s;
+    color:  rgb(248, 51, 51);
+}
+
+
+main section.login{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid none;
+    background-color: rgba(255, 255, 255, 0.432);
+    width: 300px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+ section.login nav{
+     position: absolute;
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    top: -25px;
+    
+    
+}
+
+section.login nav a{
+    color: white;
+}
+
+section.login nav a:hover{
+    cursor: pointer;
+    transition: all .5s;
+    color:  rgb(248, 51, 51);
+}
+
+section.login nav input,button{
+    margin-bottom: 20px;
+    height: 30px;
+    outline: 0;
+}
+
+
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.411);
+
+}
+
+section.login nav button{
+    width: 180px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 0px;
+    margin-top:0px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 1000;
+    font-size: 12pt;
+    background-color: black;
+    color: white;
+}
+
+section.login nav button:hover{
+    cursor: pointer;
+    transition: all .5s;
+    color:  rgb(248, 51, 51);
+}
